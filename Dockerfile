@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:lts-alpine
 WORKDIR /home/app
 COPY hello.js /home/app
 EXPOSE 5000
